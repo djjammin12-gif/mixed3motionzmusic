@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" role="img" aria-label="An empty chair under a cold spotlight in a bare room">
+  <defs>
+    <radialGradient id="spot" cx="50%" cy="26%" r="44%">
+      <stop offset="0" stop-color="#f5f0e5" stop-opacity=".62"/>
+      <stop offset=".45" stop-color="#837f76" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .18"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="900" height="1000" fill="#070707"/>
+  <path d="M120 0h660l-108 1000H228z" fill="url(#spot)"/>
+  <rect y="670" width="900" height="330" fill="#111"/>
+  <path d="M0 682h900" stroke="#bdb6aa" stroke-opacity=".14"/>
+  <g fill="none" stroke="#ddd4c5" stroke-opacity=".8" stroke-width="10" stroke-linecap="square">
+    <path d="M338 650h224"/>
+    <path d="M382 650l-30 190M518 650l30 190"/>
+    <path d="M362 520h176v130H362z"/>
+    <path d="M387 520l-28-138h182l-28 138"/>
+  </g>
+  <ellipse cx="450" cy="856" rx="224" ry="44" fill="#000" opacity=".55"/>
+  <rect width="900" height="1000" filter="url(#noise)"/>
+</svg>

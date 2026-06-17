@@ -1,0 +1,17 @@
+{
+  "name": "mixed3motionz-artist-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/dev.mjs",
+    "visual-editor": "stackbit dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@stackbit/cms-git": "^1.0.20",
+    "@stackbit/types": "^2.0.5"
+  }
+}

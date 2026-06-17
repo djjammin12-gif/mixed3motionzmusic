@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-label="Black and white merch archive flat lay">
+  <rect width="720" height="720" fill="#d7d0c3"/>
+  <filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="2"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .12"/></feComponentTransfer></filter>
+  <rect width="720" height="720" filter="url(#g)"/>
+  <path d="M221 136h278l50 88-52 34v328H223V258l-52-34z" fill="#101010"/>
+  <path d="M268 202h184" stroke="#e8e0d2" stroke-width="12"/>
+  <path d="M292 313h136M292 349h92" stroke="#e8e0d2" stroke-width="9"/>
+  <rect x="474" y="454" width="90" height="48" fill="#c57036"/>
+  <text x="285" y="466" font-family="Arial Black, Impact, sans-serif" font-size="34" fill="#e8e0d2">STILL</text>
+  <text x="285" y="507" font-family="Arial Black, Impact, sans-serif" font-size="34" fill="#e8e0d2">MOVING</text>
+</svg>

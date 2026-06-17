@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="MIXED3MOTIONZ cinematic artist website preview">
+  <rect width="1200" height="630" fill="#090909"/>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .14"/></feComponentTransfer></filter>
+  <rect width="1200" height="630" filter="url(#grain)"/>
+  <path d="M0 466 C260 415 448 510 642 464 C822 421 958 370 1200 405 L1200 630 L0 630 Z" fill="#121212"/>
+  <circle cx="601" cy="242" r="168" fill="none" stroke="#d9d2c4" stroke-opacity=".16" stroke-width="1"/>
+  <path d="M510 425 h180 M560 425 l18-112 h46 l18 112 M548 312 h106 v18 H548 z" fill="none" stroke="#d9d2c4" stroke-width="7" stroke-linecap="square"/>
+  <g transform="translate(793 160) rotate(-3)">
+    <rect width="216" height="122" fill="#d8d1c3"/>
+    <rect x="18" y="22" width="142" height="10" fill="#111"/>
+    <rect x="18" y="47" width="180" height="7" fill="#333"/>
+    <rect x="18" y="68" width="121" height="7" fill="#333"/>
+    <rect x="18" y="92" width="70" height="10" fill="#6e805d"/>
+  </g>
+  <text x="72" y="180" fill="#f2efe6" font-family="Arial Black, Impact, sans-serif" font-size="86" letter-spacing="3">MIXED3MOTIONZ</text>
+  <text x="78" y="254" fill="#d8d1c3" font-family="Arial, sans-serif" font-size="28" letter-spacing="2">PAIN IN MOTION. PURPOSE IN PROGRESS.</text>
+  <text x="78" y="545" fill="#c57036" font-family="Courier New, monospace" font-size="22">FOR THE ONES STILL MOVING.</text>
+</svg>
