@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mixed3motionmusic.com/sitemap.xml

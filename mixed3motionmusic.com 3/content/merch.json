@@ -1,0 +1,148 @@
+{
+  "categories": [
+    "Hoodies",
+    "Tees",
+    "Beanies",
+    "Lyric Prints",
+    "Limited Drops",
+    "Fan Favorites"
+  ],
+  "products": [
+    {
+      "name": "Nobody Clapped Hoodie",
+      "category": "Hoodies",
+      "image": "assets/merch-hoodie.png",
+      "front": "FIGHTING BATTLES NOBODY CLAPS FOR",
+      "back": "MIXED3MOTIONZ - STILL MOVING",
+      "description": "For the private wars. For the quiet wins. For the people who kept going with no audience.",
+      "price": "$--"
+    },
+    {
+      "name": "Pain Into Proof Tee",
+      "category": "Tees",
+      "image": "assets/merch-tee.png",
+      "front": "PAIN INTO PROOF",
+      "back": "I DID NOT BREAK. I BECAME EVIDENCE.",
+      "description": "A statement piece for turning your worst chapters into proof you survived them.",
+      "price": "$--"
+    },
+    {
+      "name": "Built Unfinished Long Sleeve",
+      "category": "Limited Drops",
+      "image": "assets/merch-long-sleeve.png",
+      "front": "BUILT UNFINISHED",
+      "sleeve": "STILL BECOMING",
+      "back": "THE STORY IS NOT DONE WITH ME.",
+      "description": "For the ones still under construction but no longer ashamed of the process.",
+      "price": "$--"
+    },
+    {
+      "name": "Motion Coordinates Hoodie",
+      "category": "Hoodies",
+      "image": "assets/merch-hoodie.png",
+      "front": "I WEAR MY SCARS LIKE COORDINATES",
+      "back": "THEY SHOW WHERE I SURVIVED",
+      "description": "A darker cinematic piece built around survival, memory, and direction.",
+      "price": "$--"
+    },
+    {
+      "name": "Overloaded Tee",
+      "category": "Tees",
+      "image": "assets/merch-tee.png",
+      "front": "I AM NOT NUMB. I AM OVERLOADED.",
+      "back": "MIXED3MOTIONZ",
+      "description": "For the overthinkers, the ADHD minds, and the people who feel too much but still function somehow.",
+      "price": "$--"
+    },
+    {
+      "name": "Still Moving Beanie",
+      "category": "Beanies",
+      "image": "assets/merch-beanie.png",
+      "front": "STILL MOVING",
+      "back": "DO NOT DISAPPEAR.",
+      "description": "Simple, wearable, and instantly tied to the movement.",
+      "price": "$--"
+    },
+    {
+      "name": "No Witness Hoodie",
+      "category": "Fan Favorites",
+      "image": "assets/merch-hoodie.png",
+      "front": "SURVIVAL WITH NO WITNESS",
+      "back": "I MADE IT THROUGH WHAT NEVER MADE THE NEWS.",
+      "description": "For the people who had to survive in silence.",
+      "price": "$--"
+    },
+    {
+      "name": "Cycle Breaker Tee",
+      "category": "Tees",
+      "image": "assets/merch-tee.png",
+      "front": "I BROKE CYCLES WITH SHAKING HANDS",
+      "back": "MIXED3MOTIONZ - MOTION OVER MADNESS",
+      "description": "For the ones trying to become better than what raised them, hurt them, or shaped them.",
+      "price": "$--"
+    },
+    {
+      "name": "Comeback Wasn't Clean Tee",
+      "category": "Fan Favorites",
+      "image": "assets/merch-tee.png",
+      "front": "NOT EVERY COMEBACK LOOKS CLEAN",
+      "back": "BUT I CAME BACK ANYWAY.",
+      "description": "For the messy rebuild. For the ones who are still here.",
+      "price": "$--"
+    },
+    {
+      "name": "The Wreckage Collection Signed Lyric Print",
+      "category": "Lyric Prints",
+      "image": "assets/merch-print.png",
+      "front": "I TURNED THE WRECKAGE INTO RHYTHM.",
+      "back": "SIGNED LYRIC-STYLE ART PRINT",
+      "description": "Limited signed lyric-style art print for fans who connect with the deeper side of the music.",
+      "price": "$--"
+    },
+    {
+      "name": "Halfway Understood Tee",
+      "category": "Tees",
+      "image": "assets/merch-tee.png",
+      "front": "HARD TO UNDERSTAND HALFWAY",
+      "back": "LOVE ME REAL OR LET ME BREATHE.",
+      "description": "For the ones tired of being reduced to the easiest version of their story.",
+      "price": "$--"
+    },
+    {
+      "name": "Still Becoming Hoodie",
+      "category": "Limited Drops",
+      "image": "assets/merch-hoodie.png",
+      "front": "STILL BECOMING",
+      "back": "I AM NOT WHO I WAS. I AM NOT WHO I'M DONE BECOMING.",
+      "description": "For the rebuild season. For the people changing in real time.",
+      "price": "$--"
+    },
+    {
+      "name": "Motion Over Madness Tee",
+      "category": "Tees",
+      "image": "assets/merch-tee.png",
+      "front": "MOTION OVER MADNESS",
+      "back": "WHEN MY MIND GOT LOUD, I MOVED.",
+      "description": "For turning mental chaos into momentum.",
+      "price": "$--"
+    },
+    {
+      "name": "Private War Hoodie",
+      "category": "Hoodies",
+      "image": "assets/merch-hoodie.png",
+      "front": "PRIVATE WAR",
+      "back": "PUBLIC SMILE.",
+      "description": "For the people who look okay because explaining got exhausting.",
+      "price": "$--"
+    },
+    {
+      "name": "Do Not Disappear Wristband",
+      "category": "Limited Drops",
+      "image": "assets/merch-bracelet.png",
+      "front": "DO NOT DISAPPEAR",
+      "back": "WRISTBAND",
+      "description": "A small reminder for the days when staying feels like the hardest thing.",
+      "price": "$--"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "links": [
+    { "label": "Instagram", "url": "https://instagram.com/replace-me" },
+    { "label": "TikTok", "url": "https://tiktok.com/@replace-me" },
+    { "label": "YouTube", "url": "https://youtube.com/@replace-me" },
+    { "label": "SoundCloud", "url": "https://soundcloud.com/replace-me" },
+    { "label": "Spotify", "url": "https://open.spotify.com/artist/replace-me" },
+    { "label": "Apple Music", "url": "https://music.apple.com/artist/replace-me" }
+  ]
+}

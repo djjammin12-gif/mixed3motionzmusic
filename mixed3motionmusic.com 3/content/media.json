@@ -1,0 +1,66 @@
+{
+  "videos": [
+    {
+      "title": "Official Videos",
+      "caption": "Full scenes for the records that need a world, not a clip."
+    },
+    {
+      "title": "Lyric Videos",
+      "caption": "Words on screen for the lines people replay alone."
+    },
+    {
+      "title": "Visualizers",
+      "caption": "Smoke, pulse, static, and late-night motion around the sound."
+    },
+    {
+      "title": "Behind The Song",
+      "caption": "The story under the hook, the wound under the rhythm."
+    },
+    {
+      "title": "Studio Moments",
+      "caption": "Drafts, takes, silence, pressure, and the moment the room catches."
+    },
+    {
+      "title": "Fan Edits",
+      "caption": "The movement reflected back through the people who felt it first."
+    }
+  ],
+  "clips": [
+    {
+      "title": "15-second hook clip",
+      "caption": "For the ones fighting battles nobody claps for.",
+      "song": "Barely Holding On",
+      "transcript": "Transcript placeholder for the hook clip."
+    },
+    {
+      "title": "Lyric reel",
+      "caption": "This line hit me from MIXED3MOTIONZ.",
+      "song": "No Address",
+      "transcript": "Transcript placeholder for lyric reel captions."
+    },
+    {
+      "title": "Behind-the-song clip",
+      "caption": "The story under the hook, the wound under the rhythm.",
+      "song": "Dad I'm Not Okay",
+      "transcript": "Transcript placeholder for behind-the-song context."
+    },
+    {
+      "title": "Fan reaction clip",
+      "caption": "I found this on The Wall.",
+      "song": "When The Walls Cave In",
+      "transcript": "Transcript placeholder for fan reaction accessibility."
+    },
+    {
+      "title": "Studio moment clip",
+      "caption": "Pain in motion. Purpose in progress.",
+      "song": "Static In My Veins",
+      "transcript": "Transcript placeholder for studio moment audio."
+    },
+    {
+      "title": "Wall story clip",
+      "caption": "Make your own motion. Say what you have been carrying.",
+      "song": "Still Moving",
+      "transcript": "Transcript placeholder for community story clips."
+    }
+  ]
+}

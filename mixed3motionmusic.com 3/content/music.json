@@ -1,0 +1,69 @@
+{
+  "songs": [
+    {
+      "title": "No Address",
+      "description": "A survival record for the nights when home feels more like a memory than a place.",
+      "mood": "Lost / cinematic / survival",
+      "image": "assets/song-no-address.png",
+      "stream": "https://open.spotify.com/artist/replace-me",
+      "lyrics": "https://genius.com/replace-me",
+      "releaseDate": "Release date placeholder",
+      "story": "A record about losing the idea of home and still refusing to stop moving.",
+      "lyricsExcerpt": "Lyrics placeholder: the room got cold, but the motion stayed.",
+      "video": "https://youtube.com/@replace-me",
+      "relatedMerch": "Nobody Clapped Hoodie"
+    },
+    {
+      "title": "Dad I'm Not Okay",
+      "description": "A confession that says what most sons never learn how to say out loud.",
+      "mood": "Family / confession / pain",
+      "image": "assets/song-dad-im-not-okay.png",
+      "stream": "https://music.apple.com/artist/replace-me",
+      "lyrics": "https://genius.com/replace-me",
+      "releaseDate": "Release date placeholder",
+      "story": "A direct confession for family pain, anger, need, and everything sons are taught to hide.",
+      "lyricsExcerpt": "Lyrics placeholder: I learned silence before I learned how to ask for help.",
+      "video": "https://youtube.com/@replace-me",
+      "relatedMerch": "Halfway Understood Tee"
+    },
+    {
+      "title": "Static In My Veins",
+      "description": "Anxiety, impulse, addiction, and ambition colliding in real time.",
+      "mood": "Chaos / pressure / overthinking",
+      "image": "assets/song-static-in-my-veins.png",
+      "stream": "https://soundcloud.com/replace-me",
+      "lyrics": "https://genius.com/replace-me",
+      "releaseDate": "Release date placeholder",
+      "story": "A pressure record for the mind that keeps moving faster than the room can hold.",
+      "lyricsExcerpt": "Lyrics placeholder: my thoughts got teeth, but my dreams still bite back.",
+      "video": "https://youtube.com/@replace-me",
+      "relatedMerch": "Motion Over Madness Tee"
+    },
+    {
+      "title": "Barely Holding On",
+      "description": "For the person smiling in public while breaking in private.",
+      "mood": "Hidden pain / survival / late night",
+      "image": "assets/song-barely-holding-on.png",
+      "stream": "https://youtube.com/@replace-me",
+      "lyrics": "https://genius.com/replace-me",
+      "releaseDate": "Release date placeholder",
+      "story": "For the person who looks calm because explaining the breaking got too expensive.",
+      "lyricsExcerpt": "Lyrics placeholder: I smiled so nobody could count the cracks.",
+      "video": "https://youtube.com/@replace-me",
+      "relatedMerch": "Private War Hoodie"
+    },
+    {
+      "title": "When The Walls Cave In",
+      "description": "A cinematic fall-apart anthem about losing everything and still reaching for something.",
+      "mood": "Loss / regret / comeback",
+      "image": "assets/song-when-the-walls-cave-in.png",
+      "stream": "https://open.spotify.com/artist/replace-me",
+      "lyrics": "https://genius.com/replace-me",
+      "releaseDate": "Release date placeholder",
+      "story": "A comeback record that does not pretend the rebuild looked clean.",
+      "lyricsExcerpt": "Lyrics placeholder: the walls came down, but I found proof in the dust.",
+      "video": "https://youtube.com/@replace-me",
+      "relatedMerch": "Comeback Wasn't Clean Tee"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "artistName": "MIXED3MOTIONZ",
+    "domain": "mixed3motionmusic.com",
+    "tagline": "Pain in motion. Purpose in progress.",
+    "footerLine": "For the ones still moving."
+  },
+  "hero": {
+    "eyebrow": "Pain in motion. Purpose in progress.",
+    "title": "MIXED3MOTIONZ",
+    "headline": "For the ones fighting battles nobody claps for.",
+    "copy": "Cinematic rap for the overthinkers, the outsiders, the loyal ones, the self-destructive dreamers, and everybody trying to turn pain into proof.",
+    "primaryCta": "Listen",
+    "secondaryCta": "Enter The Wall",
+    "tertiaryCta": "Join The List",
+    "microcopy": "No perfect heroes. Just real ones still moving.",
+    "sideNote": "The war inside finally has a sound."
+  },
+  "globalReach": {
+    "eyebrow": "Universal Reach",
+    "title": "BUILT FOR EVERYWHERE PAIN TRAVELS.",
+    "intro": "The movement stays personal without getting trapped in one city, one scene, or one kind of listener.",
+    "cards": [
+      {
+        "tag": "Global themes",
+        "title": "Specific enough to feel real. Broad enough to be understood.",
+        "body": "Survival, regret, family pain, overthinking, loyalty, heartbreak, recovery, pressure, rebuilding, and feeling misunderstood."
+      },
+      {
+        "tag": "Language ready",
+        "title": "English now. Spanish structure ready.",
+        "body": "Major sections use editable content blocks and i18n markers so Spanish and future languages can be added without rebuilding the site."
+      },
+      {
+        "tag": "Search ready",
+        "title": "Indexable paths for discovery.",
+        "body": "Home, music, videos, lyrics, merch, The Wall, about, FAQ, and contact sections are all linked for search and fan navigation."
+      },
+      {
+        "tag": "Share ready",
+        "title": "Every emotion can move.",
+        "body": "Quotes, songs, clips, merch slogans, and Wall stories include share or caption-copy actions with strong preview text."
+      }
+    ]
+  },
+  "manifesto": {
+    "eyebrow": "Movement Manifesto",
+    "title": "THIS ISN'T JUST MUSIC. IT'S MOTION.",
+    "body": "MIXED3MOTIONZ was built for the people who feel everything too deeply but still wake up and carry it. Every song is a confession, a warning, a mirror, and a reason not to quit.",
+    "pillars": [
+      { "number": "01", "title": "FEEL IT", "body": "Music that does not numb the pain. It gives it a voice." },
+      { "number": "02", "title": "FACE IT", "body": "Accountability, regret, healing, and the ugly truth we usually hide." },
+      { "number": "03", "title": "MOVE THROUGH IT", "body": "Turning damage into direction, pressure into pulse, and survival into sound." }
+    ]
+  },
+  "about": {
+    "eyebrow": "Artist Manifesto",
+    "title": "THE SOUND OF SURVIVING YOURSELF.",
+    "visualSmall": "NO PERFECT HEROES",
+    "visualLarge": "REAL ONES STILL MOVING",
+    "paragraphs": [
+      "MIXED3MOTIONZ is the sound of a mind at war with itself trying to make peace through music. Built from late nights, bad decisions, family pressure, relationship scars, ADHD chaos, loyalty, regret, and the pressure to become more than the situation you came from.",
+      "Every record lives between confession and comeback. This is music for people who do not need perfect heroes. They need someone brave enough to say the part they keep hidden.",
+      "Nothing here is polished to erase the pain. It is shaped so the pain has somewhere to go."
+    ],
+    "detailsTitle": "Read the Full Story",
+    "detailsParagraphs": [
+      "This is the placeholder for the full MIXED3MOTIONZ story: the homes that did not feel safe, the rooms where the mind got too loud, the relationships that taught the cost of silence, and the moment music became a place to put what words could not carry.",
+      "Replace this with the real timeline, influences, releases, and scars that built the movement. Keep it honest. Keep it human. Let the listener feel the cost and the comeback."
+    ]
+  },
+  "footer": {
+    "copyrightName": "MIXED3MOTIONZ"
+  }
+}
