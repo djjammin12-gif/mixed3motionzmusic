@@ -295,14 +295,132 @@ summary { cursor: pointer; font-family: var(--mono); text-transform: uppercase; 
 .tape-label { display: inline-block; background: var(--ink); color: var(--paper); padding: 6px 8px; margin-bottom: 16px; }
 
 .category-row, .filter-row { max-width: var(--max); margin: 0 auto 24px; }
-.merch-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.merch-card { background: #111; border-color: var(--line); }
-.product-shot { background: var(--paper); margin: -20px -20px 18px; }
-.merch-card dl { display: grid; gap: 10px; }
-.merch-card dt { font-family: var(--mono); font-size: 10px; color: var(--muted); text-transform: uppercase; }
-.merch-card dd { margin: 0; font-family: var(--display); line-height: 1; }
-.buy-row { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; margin-bottom: 12px; }
-.scarcity { max-width: var(--max); margin: 34px auto 0; color: var(--muted); font-family: var(--mono); }
+.merch-collection {
+  padding-inline: 0;
+  padding-bottom: 0;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255,255,255,.08), transparent 28rem),
+    linear-gradient(180deg, #040404, #101010 78%, #171717);
+}
+.merch-heading {
+  text-align: center;
+  padding: 0 var(--gutter) 24px;
+}
+.merch-heading h2 {
+  margin-inline: auto;
+  font-family: var(--display);
+  font-size: clamp(42px, 7vw, 96px);
+  font-style: italic;
+  line-height: .78;
+  transform: skewX(-9deg);
+}
+.merch-heading p {
+  margin: 12px auto 0;
+  width: max-content;
+  max-width: 100%;
+  color: var(--paper-2);
+  font-family: var(--mono);
+  font-size: clamp(13px, 1.7vw, 21px);
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  border-top: 1px solid var(--paper-2);
+  padding-top: 10px;
+}
+.merch-grid {
+  max-width: none;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 4px;
+  padding: 0 4px;
+}
+.merch-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 0;
+  padding: 0;
+  background: #050505;
+  border: 1px solid #191919;
+}
+.merch-card .artifact {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 3;
+  padding: 5px 7px;
+  background: #050505;
+  color: #fff;
+  font-family: var(--display);
+  font-size: 10px;
+  letter-spacing: 0;
+}
+.product-shot {
+  display: block;
+  margin: 0;
+  aspect-ratio: 1 / 1.18;
+  background: #777;
+  overflow: hidden;
+}
+.product-shot img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: saturate(.82) contrast(1.06);
+  transition: transform .28s ease, filter .28s ease;
+}
+.merch-card:hover .product-shot img {
+  transform: scale(1.035);
+  filter: saturate(.95) contrast(1.12);
+}
+.product-name-bar {
+  min-height: 42px;
+  margin: 0 10px;
+  transform: translateY(-18px);
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,.68);
+  background: rgba(0,0,0,.78);
+  backdrop-filter: blur(6px);
+}
+.product-name-bar h3 {
+  margin: 0;
+  padding: 6px 8px;
+  color: #fff;
+  font-family: var(--display);
+  font-size: clamp(10px, .95vw, 14px);
+  line-height: 1.05;
+  text-align: center;
+}
+.shop-link {
+  display: block;
+  margin: -8px 10px 12px;
+  color: #fff;
+  font-family: var(--display);
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.product-details {
+  display: none;
+}
+.merch-trust {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin-top: 26px;
+  border-top: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.04);
+}
+.merch-trust span {
+  min-height: 78px;
+  display: grid;
+  place-items: center;
+  color: var(--paper-2);
+  font-family: var(--mono);
+  font-size: clamp(13px, 1.4vw, 19px);
+  letter-spacing: 2px;
+  text-align: center;
+  border-right: 1px solid rgba(255,255,255,.25);
+}
+.merch-trust span:last-child { border-right: 0; }
 
 .wall-layout { display: grid; grid-template-columns: minmax(280px, .75fr) minmax(0, 1.25fr); gap: 34px; align-items: start; }
 .wall-form, .post-card { border: 1px solid var(--line-dark); padding: 20px; background: rgba(8,8,8,.04); }
@@ -396,6 +514,15 @@ summary { cursor: pointer; font-family: var(--mono); text-transform: uppercase; 
   .evidence-grid, .song-grid, .video-grid, .quote-grid, .merch-grid, .clip-grid, .momentum-grid, .embed-strip { grid-template-columns: 1fr; }
   .quote-card { min-height: auto; }
   .footer { padding-bottom: 95px; }
+  .merch-heading h2 {
+    font-size: clamp(34px, 12vw, 48px);
+    white-space: nowrap;
+  }
+  .merch-heading p {
+    width: auto;
+    font-size: 12px;
+    letter-spacing: 6px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

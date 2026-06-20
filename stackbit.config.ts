@@ -37,7 +37,8 @@ const objectFields = {
     { type: "string", name: "front" },
     { type: "string", name: "back" },
     { type: "text", name: "description" },
-    { type: "string", name: "price" }
+    { type: "string", name: "price" },
+    { type: "image", name: "image" }
   ],
   wallPost: [
     { type: "string", name: "name" },
