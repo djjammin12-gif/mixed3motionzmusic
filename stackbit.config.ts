@@ -209,9 +209,18 @@ const models = [
 ];
 
 export default defineStackbitConfig({
-  stackbitVersion: "~0.7.0",
-  ssgName: "astro",
+  stackbitVersion: "~0.6.0",
+  ssgName: "custom",
   nodeVersion: "20",
+  devCommand: "PORT={PORT} node scripts/dev.mjs",
+  experimental: {
+    ssg: {
+      name: "MIXED3MOTIONZ Static Builder",
+      logPatterns: {
+        up: ["MIXED3MOTIONZ site running"]
+      }
+    }
+  },
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
