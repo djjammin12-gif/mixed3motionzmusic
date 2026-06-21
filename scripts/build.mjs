@@ -1,8 +1,10 @@
 import { copyFileSync, cpSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
+import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
+
+export function build() {
 const site = JSON.parse(readFileSync(join(root, "src/data/site.json"), "utf8"));
 const dist = join(root, "dist");
 const objectId = "src/data/site.json";
@@ -99,3 +101,8 @@ const html = `<!doctype html>
 
 writeFileSync(join(dist, "index.html"), html);
 writeFileSync(join(dist, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${esc(site.canonicalUrl)}</loc></url></urlset>`);
+}
+
+// Run the build directly when invoked via `node scripts/build.mjs` (e.g. the Netlify build command).
+const isEntry = process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+if (isEntry) build();
