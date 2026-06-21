@@ -26,6 +26,10 @@ const objectFields = {
     { type: "text", name: "copy" },
     { type: "string", name: "cta" }
   ],
+  movementPillar: [
+    { type: "string", name: "title", required: true },
+    { type: "text", name: "description" }
+  ],
   song: [
     { type: "string", name: "title", required: true },
     { type: "text", name: "description" },
@@ -49,6 +53,14 @@ const objectFields = {
   faqItem: [
     { type: "string", name: "q", required: true },
     { type: "text", name: "a", required: true }
+  ],
+  links: [
+    { type: "string", name: "spotify" },
+    { type: "string", name: "appleMusic" },
+    { type: "string", name: "soundcloud" },
+    { type: "string", name: "youtube" },
+    { type: "string", name: "instagram" },
+    { type: "string", name: "tiktok" }
   ]
 };
 
@@ -57,10 +69,112 @@ const models = [
   { name: "Artist", type: "object", fields: objectFields.artist },
   { name: "Hero", type: "object", fields: objectFields.hero },
   { name: "TitleBlock", type: "object", fields: objectFields.titleBlock },
+  { name: "MovementPillar", type: "object", fields: objectFields.movementPillar },
   { name: "Song", type: "object", fields: objectFields.song },
   { name: "MerchItem", type: "object", fields: objectFields.merchItem },
   { name: "WallPost", type: "object", fields: objectFields.wallPost },
   { name: "FaqItem", type: "object", fields: objectFields.faqItem },
+  { name: "Links", type: "object", fields: objectFields.links },
+  {
+    name: "ManifestoSection",
+    type: "object",
+    fields: [
+      { type: "string", name: "title", required: true },
+      { type: "text", name: "copy" },
+      { type: "list", name: "pillars", items: { type: "model", models: ["MovementPillar"] } }
+    ]
+  },
+  {
+    name: "SongsSection",
+    type: "object",
+    fields: [
+      { type: "string", name: "title", required: true },
+      { type: "text", name: "subheadline" },
+      { type: "list", name: "items", items: { type: "model", models: ["Song"] } }
+    ]
+  },
+  {
+    name: "LineListSection",
+    type: "object",
+    fields: [
+      { type: "string", name: "title", required: true },
+      { type: "text", name: "subheadline" },
+      { type: "string", name: "cta" },
+      { type: "list", name: "lines", items: { type: "string" } },
+      { type: "list", name: "items", items: { type: "string" } },
+      { type: "list", name: "filters", items: { type: "string" } },
+      { type: "list", name: "stats", items: { type: "string" } },
+      { type: "list", name: "placeholders", items: { type: "string" } },
+      { type: "list", name: "buttons", items: { type: "string" } },
+      { type: "list", name: "reasons", items: { type: "string" } }
+    ]
+  },
+  {
+    name: "SignupSection",
+    type: "object",
+    fields: [
+      { type: "string", name: "title", required: true },
+      { type: "text", name: "subtext" },
+      { type: "string", name: "button" },
+      { type: "string", name: "trust" },
+      { type: "string", name: "support" },
+      { type: "text", name: "ownership" }
+    ]
+  },
+  {
+    name: "AboutSection",
+    type: "object",
+    fields: [
+      { type: "string", name: "title", required: true },
+      { type: "list", name: "copy", items: { type: "text" } },
+      { type: "string", name: "cta" },
+      { type: "text", name: "fullStory" }
+    ]
+  },
+  {
+    name: "QuotesSection",
+    type: "object",
+    fields: [
+      { type: "string", name: "title", required: true },
+      { type: "text", name: "subheadline" },
+      { type: "list", name: "filters", items: { type: "string" } },
+      { type: "list", name: "items", items: { type: "text" } }
+    ]
+  },
+  {
+    name: "MerchSection",
+    type: "object",
+    fields: [
+      { type: "string", name: "title", required: true },
+      { type: "string", name: "subheadline" },
+      { type: "list", name: "categories", items: { type: "string" } },
+      { type: "list", name: "scarcity", items: { type: "string" } },
+      { type: "list", name: "trust", items: { type: "string" } },
+      { type: "list", name: "items", items: { type: "model", models: ["MerchItem"] } }
+    ]
+  },
+  {
+    name: "WallSection",
+    type: "object",
+    fields: [
+      { type: "string", name: "title", required: true },
+      { type: "string", name: "headline" },
+      { type: "text", name: "subheadline" },
+      { type: "text", name: "privacy" },
+      { type: "text", name: "crisis" },
+      { type: "list", name: "rules", items: { type: "string" } },
+      { type: "list", name: "moods", items: { type: "string" } },
+      { type: "list", name: "posts", items: { type: "model", models: ["WallPost"] } }
+    ]
+  },
+  {
+    name: "FaqSection",
+    type: "object",
+    fields: [
+      { type: "string", name: "title", required: true },
+      { type: "list", name: "items", items: { type: "model", models: ["FaqItem"] } }
+    ]
+  },
   {
     name: "HomePage",
     type: "page",
@@ -74,21 +188,22 @@ const models = [
       { type: "model", name: "artist", models: ["Artist"] },
       { type: "list", name: "nav", items: { type: "string" } },
       { type: "model", name: "hero", models: ["Hero"] },
-      { type: "model", name: "manifesto", models: ["TitleBlock"] },
-      { type: "model", name: "songs", models: ["TitleBlock"] },
-      { type: "model", name: "connection", models: ["TitleBlock"] },
-      { type: "model", name: "signup", models: ["TitleBlock"] },
-      { type: "model", name: "about", models: ["TitleBlock"] },
-      { type: "model", name: "videos", models: ["TitleBlock"] },
-      { type: "model", name: "quotes", models: ["TitleBlock"] },
-      { type: "model", name: "merch", models: ["TitleBlock"] },
-      { type: "model", name: "wall", models: ["TitleBlock"] },
-      { type: "model", name: "rotator", models: ["TitleBlock"] },
-      { type: "model", name: "clips", models: ["TitleBlock"] },
-      { type: "model", name: "momentum", models: ["TitleBlock"] },
-      { type: "model", name: "support", models: ["TitleBlock"] },
-      { type: "model", name: "contact", models: ["TitleBlock"] },
-      { type: "model", name: "faq", models: ["TitleBlock"] }
+      { type: "model", name: "manifesto", models: ["ManifestoSection"] },
+      { type: "model", name: "songs", models: ["SongsSection"] },
+      { type: "model", name: "connection", models: ["LineListSection"] },
+      { type: "model", name: "signup", models: ["SignupSection"] },
+      { type: "model", name: "about", models: ["AboutSection"] },
+      { type: "model", name: "videos", models: ["LineListSection"] },
+      { type: "model", name: "quotes", models: ["QuotesSection"] },
+      { type: "model", name: "merch", models: ["MerchSection"] },
+      { type: "model", name: "wall", models: ["WallSection"] },
+      { type: "model", name: "rotator", models: ["LineListSection"] },
+      { type: "model", name: "clips", models: ["LineListSection"] },
+      { type: "model", name: "momentum", models: ["LineListSection"] },
+      { type: "model", name: "support", models: ["LineListSection"] },
+      { type: "model", name: "contact", models: ["LineListSection"] },
+      { type: "model", name: "faq", models: ["FaqSection"] },
+      { type: "model", name: "links", models: ["Links"] }
     ]
   }
 ];

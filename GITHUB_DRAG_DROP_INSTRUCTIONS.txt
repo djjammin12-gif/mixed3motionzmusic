@@ -1,0 +1,42 @@
+MIXED3MOTIONZ WEBSITE - GITHUB DRAG/DROP INSTRUCTIONS
+
+Use this folder for GitHub:
+github-upload-visual-editor
+
+IMPORTANT:
+Do not upload the zip file itself to GitHub.
+Do not upload the dist folder as your main website source.
+Open the folder and drag/drop the files INSIDE it into GitHub.
+
+Your GitHub repo root should show these files and folders:
+package.json
+netlify.toml
+stackbit.config.ts
+README.md
+src
+public
+scripts
+
+Netlify settings:
+Build command: npm run build
+Publish directory: dist
+Base directory: leave blank unless you put everything inside a nested folder
+
+Visual Editor:
+The editable content is in src/data/site.json.
+The Visual Editor setup is in stackbit.config.ts.
+New uploaded images should go into public/assets/uploads through Visual Editor.
+Current merch images are in public/assets/merch.
+
+To change merch photos in Visual Editor:
+1. Open Netlify Visual Editor.
+2. Open the Home page document.
+3. Find Merch.
+4. Open a merch item.
+5. Change the image field.
+6. Save/publish.
+7. Netlify rebuilds automatically from GitHub.
+
+You should not need to upload a new build file each time.
+After GitHub is connected to Netlify, changes should go:
+Visual Editor -> GitHub commit -> Netlify rebuild -> live site.
